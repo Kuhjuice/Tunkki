@@ -3,7 +3,7 @@
 ### initialize environment
 
 - copy .env.example to .env and symfony/.env to /symfony/.env.dev.local and change the defaults
-- `docker compose build; docker compose up -d;`
+- `docker-compose build; docker-compose up -d;`
 
 #### draw the rest of the owl
 
