@@ -2,6 +2,8 @@
 
 ### initialize environment
 
+- Create a seperate user with ` sudo adduser tunkking `
+- Add user to the docker group ` sudo usermod -aG docker tunkking `
 - copy .env.example to .env and symfony/.env to /symfony/.env.dev.local and change the defaults
 - `docker compose build; docker compose up -d;`
 
